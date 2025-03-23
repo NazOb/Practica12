@@ -9,10 +9,9 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground" />
+        android:layout_height="150dp"
+        android:src="@drawable/icon" />
 
     <EditText
         android:id="@+id/et_mail"
@@ -59,6 +58,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:text="Registrar" />
 
